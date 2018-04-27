@@ -1,12 +1,13 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from './../index';
+import Loader from './../index';
 
-describe('App', () => {
-    it('should render correctly', () =>{
+describe('Loader', () => {
+    it('should render correctly', ()=>{
         let tree = renderer.create(
-            <App />
+            <Loader />
         ).toJSON();
+
         expect(tree).toMatchSnapshot()
     })
 })

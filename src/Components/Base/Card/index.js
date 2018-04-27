@@ -6,8 +6,10 @@ class Card extends Component {
     }
 
     render() {
+        const { cardType, alias } = this.props;
         return(
             <div className="Card">
+                { cardType } { alias }
             </div>
         )
     }

@@ -3,4 +3,4 @@ const getSavedCards = () => {
     return data.savedCards;
 }
 
-export default { getSavedCards }
+export { getSavedCards }
