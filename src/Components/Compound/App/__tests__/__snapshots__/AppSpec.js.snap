@@ -47,26 +47,49 @@ exports[`App should render correctly 1`] = `
   <footer
     className="Footer"
   >
-    <ul>
-      <li>
+    <ul
+      className="Footer__Menu"
+    >
+      <li
+        className="Footer__Menu__Item"
+      >
         <a
+          className="Footer__Menu__Item__Link Footer__Menu__Item__Link--Search"
           href=""
         >
-          Link 1
+          <span
+            className="sr-only"
+          >
+            Link 1
+          </span>
         </a>
       </li>
-      <li>
+      <li
+        className="Footer__Menu__Item"
+      >
         <a
+          className="Footer__Menu__Item__Link Footer__Menu__Item__Link--Plus"
           href=""
         >
-          Link 1
+          <span
+            className="sr-only"
+          >
+            Link 1
+          </span>
         </a>
       </li>
-      <li>
+      <li
+        className="Footer__Menu__Item"
+      >
         <a
+          className="Footer__Menu__Item__Link Footer__Menu__Item__Link--Setting"
           href=""
         >
-          Link 1
+          <span
+            className="sr-only"
+          >
+            Link 1
+          </span>
         </a>
       </li>
     </ul>

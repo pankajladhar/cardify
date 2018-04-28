@@ -1,17 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Header from './../../Base/Header';
 import Footer from './../../Base/Footer';
-import Cards from './../../Compound/Cards'
+import Cards from './../../Compound/Cards';
+import './App.css';
 
 class App extends Component {
     render() {
         return (
-            <div className="Container">
+            <Fragment>
                 <Header />
-                <Cards />
+                <div className="Container">
+                    <Cards />
+                </div>
                 <Footer />
-            </div>
+            </Fragment>
         );
     }
 }

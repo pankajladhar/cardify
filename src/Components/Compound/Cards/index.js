@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import Loader from './../../Base/Loader';
-import Card from './../../Base/Card'
+import Card from './../../Base/Card';
 import { getSavedCards } from './../../../API';
+
+import './Cards.css';
 
 class Cards extends Component {
     constructor(props) {
