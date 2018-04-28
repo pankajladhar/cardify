@@ -1,5 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 @import './../../../StyleSettings/variables';
 
 .Header {
   background: map-get($HEADER, "BG_COLOR");
+  color: map-get($HEADER, "COLOR");
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+
+  .Header__Logo__Image {
+    margin-right: 8px;
+    width: map-get($HEADER, "LOGO_WIDTH");
+    height: map-get($HEADER, "LOGO_HEIGHT");
+  }
+
+  .Header__Logo {
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Berkshire Swash, sans-serif;
+    font-size: 30px;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: #fff;
+    }
+  }
 }

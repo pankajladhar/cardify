@@ -7,10 +7,17 @@ exports[`App should render correctly 1`] = `
   <header
     className="Header"
   >
-    <img
-      alt="Cardify"
-      src="/"
-    />
+    <a
+      className="Header__Logo"
+      href="/"
+    >
+      <img
+        alt="Cardify"
+        className="Header__Logo__Image"
+        src="logo.svg"
+      />
+      Cardify
+    </a>
   </header>
   <div
     className="Cards"

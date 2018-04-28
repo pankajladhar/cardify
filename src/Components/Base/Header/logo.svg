@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="441px" height="423px" viewBox="0 0 441 423" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>LOGO</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="1.56462533" y="2.26733528" width="314.636872" height="168.622754" rx="7"></rect>
+        <rect id="path-2" x="0" y="0" width="314.636872" height="168.622754" rx="7"></rect>
+        <rect id="path-3" x="0" y="0" width="314.636872" height="168.622754" rx="7"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LOGO" transform="translate(-34.000000, -31.000000)">
+            <rect id="Rectangle" x="0" y="0" width="512" height="512"></rect>
+            <g id="Card3" transform="translate(205.400716, 194.212689) rotate(-40.000000) translate(-205.400716, -194.212689) translate(46.652113, 108.368378)">
+                <g id="Rectangle-2-Copy">
+                    <use fill="#2ECC71" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#2ECC71" stroke-width="1" x="2.06462533" y="2.76733528" width="313.636872" height="167.622754" rx="7"></rect>
+                </g>
+                <rect id="Rectangle-5" fill="#96E4B7" x="1.56462533" y="32.9260179" width="314.636872" height="30.6586826"></rect>
+                <rect id="Rectangle-4" fill="#96E4B7" transform="translate(55.910994, 118.770329) rotate(-40.000000) translate(-55.910994, -118.770329) " x="27.3076421" y="88.1116467" width="57.2067039" height="61.3173653"></rect>
+            </g>
+            <g id="Card2" transform="translate(240.268156, 286.658683) rotate(-40.000000) translate(-240.268156, -286.658683) translate(82.949721, 202.347305)">
+                <g id="Rectangle-2-Copy">
+                    <use fill="#8E44AD" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#8E44AD" stroke-width="1" x="0.5" y="0.5" width="313.636872" height="167.622754" rx="7"></rect>
+                </g>
+                <rect id="Rectangle-5" fill="#CA91E1" x="0" y="30.6586826" width="314.636872" height="30.6586826"></rect>
+                <rect id="Rectangle-4" fill="#CA91E1" x="25.7430168" y="85.8443114" width="57.2067039" height="61.3173653"></rect>
+            </g>
+            <g id="Card1" transform="translate(160.178771, 285.125749)">
+                <g id="Rectangle-2-Copy-2">
+                    <use fill="#E67E22" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#E67E22" stroke-width="1" x="0.5" y="0.5" width="313.636872" height="167.622754" rx="7"></rect>
+                </g>
+                <rect id="Rectangle-4" fill="#F9BA54" x="22.8826816" y="79.7125749" width="57.2067039" height="61.3173653"></rect>
+                <rect id="Rectangle-3" fill="#F9BA54" x="0" y="30.6586826" width="314.636872" height="30.6586826"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,2 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
 .Header {
-  background: #000; }
+  background: #2f3640;
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  justify-content: center; }
+  .Header .Header__Logo__Image {
+    margin-right: 8px;
+    width: 40px;
+    height: 40px; }
+  .Header .Header__Logo {
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Berkshire Swash, sans-serif;
+    font-size: 30px; }
+    .Header .Header__Logo:hover, .Header .Header__Logo:active, .Header .Header__Logo:focus {
+      color: #fff; }
