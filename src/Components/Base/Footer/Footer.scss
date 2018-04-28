@@ -1,0 +1,45 @@
+@import './../../../StyleSettings/variables';
+@import './../../../StyleSettings/svgIcon';
+@import './../../../StyleSettings/svgURIEncoding';
+
+.Footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 5px 15px;
+  height: map-get($FOOTER, "HEIGHT");
+  background: map-get($FOOTER, "BG_COLOR");
+  color: map-get($FOOTER, "COLOR");
+  .Footer__Menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+  }
+
+  .Footer__Menu__Item {
+    padding-top: 4px;
+  }
+
+  .Footer__Menu__Item__Link {
+    color: inherit;
+    background: none;
+    background-repeat: no-repeat; 
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+
+    &--Search {
+      background-image: svg-uri($searchIcon)
+    }
+
+    &--Plus {
+      background-image: svg-uri($plusIcon)
+    }
+
+    &--Setting {
+      background-image: svg-uri($settingIcon)
+    }
+  }
+}

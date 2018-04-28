@@ -1,0 +1,29 @@
+.Footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 5px 15px;
+  height: 50px;
+  background: #2f3640;
+  color: #fff; }
+  .Footer .Footer__Menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center; }
+  .Footer .Footer__Menu__Item {
+    padding-top: 4px; }
+  .Footer .Footer__Menu__Item__Link {
+    color: inherit;
+    background: none;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    display: inline-block; }
+    .Footer .Footer__Menu__Item__Link--Search {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='123' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M15.502,9.491 L14.708,9.491 L14.432,9.765 C15.407,10.902 16,12.376 16,13.991 C16,17.581 13.09,20.491 9.5,20.491 C5.91,20.491 3,17.581 3,13.991 C3,10.401 5.91,7.491 9.5,7.491 C11.115,7.491 12.588,8.083 13.725,9.057 L14.001,8.783 L14.001,7.991 L18.999,3 L20.49,4.491 L15.502,9.491 L15.502,9.491 Z M9.5,9.491 C7.014,9.491 5,11.505 5,13.991 C5,16.476 7.014,18.491 9.5,18.491 C11.985,18.491 14,16.476 14,13.991 C14,11.505 11.985,9.491 9.5,9.491 L9.5,9.491 Z' id='Shape' fill='%23FFFFFF' transform='translate(11.745000, 11.745500) scale(1, -1) translate(-11.745000, -11.745500) '%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); }
+    .Footer .Footer__Menu__Item__Link--Plus {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='pus' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpolygon id='Shape' fill='%23ffffff' points='11 5 11 11 5 11 5 13 11 13 11 19 13 19 13 13 19 13 19 11 13 11 13 5'%3E%3C/polygon%3E%3C/g%3E%3C/svg%3E"); }
+    .Footer .Footer__Menu__Item__Link--Setting {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='set' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M3,18 L21,18 L21,16 L3,16 L3,18 L3,18 Z M3,13 L21,13 L21,11 L3,11 L3,13 L3,13 Z M3,6 L3,8 L21,8 L21,6 L3,6 L3,6 Z' id='Shape' fill='%23FFFFFF'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); }
