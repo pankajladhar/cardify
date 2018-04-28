@@ -8,7 +8,8 @@ describe('Card', () => {
     beforeEach(()=>{
         cardProps = {
             id : "122df32q",
-            cardType: "HDFC"
+            cardType: "HDFC",
+            style: "Tale"
         }
     })
 

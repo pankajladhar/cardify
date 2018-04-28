@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import { Link } from "react-router-dom";
 import Loader from './../../Base/Loader';
 import Card from './../../Base/Card';
 import { getSavedCards } from './../../../API';
@@ -25,9 +26,14 @@ class Cards extends Component {
         return (
             <div className="Cards">
                 {
-                    this.state.cards.map(card =>
-                        <Card key={card.id} {...card}/>
-                    )
+                    this.state.cards.map(card => {
+                        return (
+                            <Link key={card.id}
+                                to={`/details/${card.id}`}>
+                                <Card {...card} />
+                            </Link>
+                        )
+                    })
                 }
             </div>
         )

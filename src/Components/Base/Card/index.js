@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import './Card.css';
 
 class Card extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const { avatar, cardType, alias, style } = this.props;
         return (
@@ -28,6 +24,7 @@ class Card extends Component {
 Card.propTypes = {
     id: PropTypes.string.isRequired,
     cardType: PropTypes.string.isRequired,
+    style: PropTypes.oneOf(['Tale', 'Purple', 'Indigo', 'Pink', 'DeepOrange']).isRequired,
     alias: PropTypes.string,
 }
 

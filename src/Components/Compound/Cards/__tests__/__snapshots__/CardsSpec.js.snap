@@ -32,26 +32,155 @@ exports[`Cards should render correctly 1`] = `
 <div
   className="Cards"
 >
-  <div
-    className="Card"
+  <a
+    href="/details/a123vdfdr"
+    onClick={[Function]}
   >
-    HDFC
-     
-    HDFC Card
-  </div>
-  <div
-    className="Card"
+    <div
+      className="Card"
+    >
+      <div
+        className="Card__Avatar Card__Avatar--Tale"
+      >
+         
+        H
+         
+      </div>
+      <div
+        className="Card__Info"
+      >
+        <div
+          className="Card__Info__Main"
+        >
+          HDFC
+        </div>
+        <div
+          className="Card__Info__Main__Alias"
+        >
+          HDFC Card
+        </div>
+      </div>
+    </div>
+  </a>
+  <a
+    href="/details/sferwe2313"
+    onClick={[Function]}
   >
-    CITI Bank
-     
-    CITI Bank Card
-  </div>
-  <div
-    className="Card"
+    <div
+      className="Card"
+    >
+      <div
+        className="Card__Avatar Card__Avatar--Purple"
+      >
+         
+        C
+         
+      </div>
+      <div
+        className="Card__Info"
+      >
+        <div
+          className="Card__Info__Main"
+        >
+          CITI Bank
+        </div>
+        <div
+          className="Card__Info__Main__Alias"
+        >
+          CITI Bank Card
+        </div>
+      </div>
+    </div>
+  </a>
+  <a
+    href="/details/12dsfwee"
+    onClick={[Function]}
   >
-    TATA SBI
-     
-    TATA SBI Card
-  </div>
+    <div
+      className="Card"
+    >
+      <div
+        className="Card__Avatar Card__Avatar--Indigo"
+      >
+         
+        T
+         
+      </div>
+      <div
+        className="Card__Info"
+      >
+        <div
+          className="Card__Info__Main"
+        >
+          TATA SBI
+        </div>
+        <div
+          className="Card__Info__Main__Alias"
+        >
+          TATA SBI Card
+        </div>
+      </div>
+    </div>
+  </a>
+  <a
+    href="/details/s1ferwe2313"
+    onClick={[Function]}
+  >
+    <div
+      className="Card"
+    >
+      <div
+        className="Card__Avatar Card__Avatar--Pink"
+      >
+         
+        A
+         
+      </div>
+      <div
+        className="Card__Info"
+      >
+        <div
+          className="Card__Info__Main"
+        >
+          AXIS
+        </div>
+        <div
+          className="Card__Info__Main__Alias"
+        >
+          Axix Bank Card
+        </div>
+      </div>
+    </div>
+  </a>
+  <a
+    href="/details/12dsfewee"
+    onClick={[Function]}
+  >
+    <div
+      className="Card"
+    >
+      <div
+        className="Card__Avatar Card__Avatar--DeepOrange"
+      >
+         
+        T
+         
+      </div>
+      <div
+        className="Card__Info"
+      >
+        <div
+          className="Card__Info__Main"
+        >
+          AMERICAN EXPRESS
+        </div>
+        <div
+          className="Card__Info__Main__Alias"
+        >
+          American express Card
+        </div>
+      </div>
+    </div>
+  </a>
 </div>
 `;

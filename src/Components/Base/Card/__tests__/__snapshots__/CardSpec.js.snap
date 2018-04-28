@@ -4,8 +4,24 @@ exports[`Card should render correctly with all mandatory props 1`] = `
 <div
   className="Card"
 >
-  HDFC
-   
+  <div
+    className="Card__Avatar Card__Avatar--Tale"
+  >
+     
+     
+  </div>
+  <div
+    className="Card__Info"
+  >
+    <div
+      className="Card__Info__Main"
+    >
+      HDFC
+    </div>
+    <div
+      className="Card__Info__Main__Alias"
+    />
+  </div>
 </div>
 `;
 
@@ -13,8 +29,25 @@ exports[`Card should render correctly with all props 1`] = `
 <div
   className="Card"
 >
-  HDFC
-   
-  HDFC alias
+  <div
+    className="Card__Avatar Card__Avatar--Tale"
+  >
+     
+     
+  </div>
+  <div
+    className="Card__Info"
+  >
+    <div
+      className="Card__Info__Main"
+    >
+      HDFC
+    </div>
+    <div
+      className="Card__Info__Main__Alias"
+    >
+      HDFC alias
+    </div>
+  </div>
 </div>
 `;
