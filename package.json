@@ -6,7 +6,8 @@
     "enzyme": "^3.3.0",
     "prop-types": "^15.6.1",
     "react-scripts": "1.1.4",
-    "react-test-renderer": "^16.3.2"
+    "react-test-renderer": "^16.3.2",
+    "workbox-cli": "^3.1.0"
   },
   "dependencies": {
     "react": "^16.3.2",
@@ -15,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && workbox injectManifest workbox-config.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
