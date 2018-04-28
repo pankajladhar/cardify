@@ -12,6 +12,31 @@ exports[`App should render correctly 1`] = `
       src="/"
     />
   </header>
+  <div
+    className="Cards"
+  >
+    <div
+      className="Card"
+    >
+      HDFC
+       
+      HDFC Card
+    </div>
+    <div
+      className="Card"
+    >
+      CITI Bank
+       
+      CITI Bank Card
+    </div>
+    <div
+      className="Card"
+    >
+      TATA SBI
+       
+      TATA SBI Card
+    </div>
+  </div>
   <footer
     className="Footer"
   >
