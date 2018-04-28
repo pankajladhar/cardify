@@ -1,3 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Card should render correctly 1`] = `[Function]`;
+exports[`Card should render correctly with all mandatory props 1`] = `
+<div
+  className="Card"
+>
+  HDFC
+   
+</div>
+`;
+
+exports[`Card should render correctly with all props 1`] = `
+<div
+  className="Card"
+>
+  HDFC
+   
+  HDFC alias
+</div>
+`;
