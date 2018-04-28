@@ -1,5 +1,6 @@
 import React from 'react';
-import CONSTANTS from './../../../Constants/index'
+import CONSTANTS from './../../../Constants/index';
+import './Header.css';
 
 const Header = () => {
     return (

@@ -1,0 +1,5 @@
+@import './../../../StyleSettings/variables';
+
+.Header {
+  background: map-get($HEADER, "BG_COLOR");
+}
