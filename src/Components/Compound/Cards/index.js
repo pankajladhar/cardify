@@ -17,9 +17,11 @@ class Cards extends Component {
     }
 
     componentDidMount() {
-        this.setState({
-            cards: getSavedCards()
-        });
+        getSavedCards().then((cards) => {
+            this.setState({
+                cards
+            });
+        })
     }
 
     renderCards() {

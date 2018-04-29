@@ -1,6 +1,7 @@
-import data from './Data';
+// import data from './Data';
+import { HttpWrapper } from './HttpWrapper';
 const getSavedCards = () => {
-    return data.savedCards;
+    return HttpWrapper.get("https://cardify-server.herokuapp.com/api/v1/cards/fetch");
 }
 
 export { getSavedCards }
