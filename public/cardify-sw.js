@@ -9,4 +9,23 @@ workbox.routing.registerRoute(
     workbox.strategies.cacheFirst()
 )
 
+workbox.routing.registerRoute(
+    new RegExp('.*(?:googleapis|gstatic)\.com.*$'),
+    workbox.strategies.cacheFirst({
+        cacheName: 'googleapis',
+        plugins: [
+          new workbox.cacheableResponse.Plugin({
+            statuses: [0, 200]
+          })
+        ]
+    })
+);
+
+workbox.routing.registerRoute(
+  new RegExp('.*\/api\/.*'),
+  workbox.strategies.networkFirst({
+    cacheName: 'api',
+  })
+)
+
 workbox.precaching.precacheAndRoute([]);
