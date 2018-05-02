@@ -34,7 +34,7 @@ Button.propTypes = {
     disabled: PropTypes.bool,
     type: PropTypes.oneOf(["button", "reset", "submit"]),
     value: PropTypes.string.isRequired,
-    onClick: PropTypes.func.isRequired
+    onClick: PropTypes.func
 };
 
 export default Button;

@@ -41,6 +41,7 @@ class TextBox extends PureComponent {
         return (
             <input id={this.props.id}
                 name={this.props.id}
+                defaultValue={this.props.value}
                 type={this.props.type}
                 className={`TextBox ${this.props.className}`}
                 placeholder={this.props.placeholder}
@@ -57,17 +58,17 @@ TextBox.defaultProps = {
     type: "text",
     placeholder: "",
     className: "",
-    onBlur: () =>{
-
-    }
+    onBlur: () =>{},
+    onChange: () =>{}
 };
 
 TextBox.propTypes = {
     className: PropTypes.string,
     id: PropTypes.string.isRequired,
+    value: PropTypes.string,
     type: PropTypes.oneOf(["text", "number"]).isRequired,
     placeholder: PropTypes.string,
-    onChange: PropTypes.func.isRequired,
+    onChange: PropTypes.func,
     onKeyPress: PropTypes.func,
     onKeyDown: PropTypes.func,
 };
